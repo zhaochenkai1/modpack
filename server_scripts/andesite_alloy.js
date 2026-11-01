@@ -17,9 +17,6 @@ ServerEvents.recipes(e => {
         ]
     )
 
-
-
-
     create.milling([
             "kubejs:crushed_andesite",
             CreateItem.of("minecraft:cobblestone", 0.75)
@@ -28,9 +25,17 @@ ServerEvents.recipes(e => {
     )
 
     create.crushing([
-            Item.od("kubejs:crushed_andesite", 2),
+            Item.of("kubejs:crushed_andesite", 2),
             CreateItem.of("minecraft:cobblestone", 0.25)
         ],
         Item.of("minecraft:andesite")
+    )
+
+    create.mixing(
+        Item.of("create:andesite_alloy"),
+        [
+            "kubejs:crushed_andesite",
+            "create:zinc_nugget"
+        ]
     )
 })
