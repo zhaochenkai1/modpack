@@ -27,9 +27,6 @@ ServerEvents.recipes(e => {
         Item.of("minecraft:andesite")
     )
 
-
-
-
     create.crushing([
             Item.od("kubejs:crushed_andesite", 2),
             CreateItem.of("minecraft:cobblestone", 0.25)
