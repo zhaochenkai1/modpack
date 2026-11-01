@@ -1,5 +1,7 @@
 {
     "item.kubejs.proto_seed":"原始种子",
 
+    "item.kubejs.crushed_andesite":"粉碎安山岩",
+
     "fluid_type.kubejs.smelted_andesite":"熔融安山岩"
 }
