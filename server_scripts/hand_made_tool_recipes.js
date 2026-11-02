@@ -6,12 +6,12 @@ ServerEvents.recipes(e => {
 
     e.remove({output : 'create_hand_made:pointer'})
     mine.crafting_shaped('create_hand_made:pointer', [
-        ['', 'ET', 'BS'],
-        ['', 'S', 'ET'],
+        ['', 'E', 'B'],
+        ['', 'S', 'E'],
         ['S', '', '']
     ], {
-        'ET': 'create:electron_tube',
-        'BS': 'create:brass_hand',
+        'E': 'create:electron_tube',
+        'B': 'create:brass_hand',
         'S': 'minecraft:stick'
     })
 })
