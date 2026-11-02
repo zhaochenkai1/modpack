@@ -19,4 +19,17 @@ ServerEvents.recipes(e => {
             'I':'minecraft:iron_ingot'
         }
     )
+
+    e.remove({output:'create_hand_made:press_hammer'})
+    e.shaped('create_hand_made:press_hammer',
+        [' I ', ' S ', ' S '],
+        {
+            'S':'minecraft:stick', 
+            'I': 'minecraft:iron_block'
+        }
+    )
+
+    e.remove({output:'create_hand_made:bellows'})
+
+    //TODO: 手锯配方
 })
