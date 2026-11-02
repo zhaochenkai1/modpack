@@ -22,7 +22,7 @@ ServerEvents.recipes(e => {
 
     e.remove({output:'create_hand_made:press_hammer'})
     e.shaped('create_hand_made:press_hammer',
-        [' I ', ' S ', ' S '],
+        ['  I', ' S ', 'S  '],
         {
             'S':'minecraft:stick', 
             'I': 'minecraft:iron_block'
